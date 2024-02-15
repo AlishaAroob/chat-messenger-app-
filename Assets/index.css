@@ -42,8 +42,28 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid red;
+    width: 40%;
+    margin: auto;
+    display: block;
+    margin-top: 2px;
 }
+.inp{
+   width: 80%;
+   height: 40px;
+   border-radius: 10px;
+   cursor: pointer;
+}
+.btnn{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+.btnn:hover{
+    color: white;
+    background-color: rgb(201, 198, 198);
+    cursor: pointer;
+}
+
 
 
 
