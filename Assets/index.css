@@ -42,11 +42,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.send input{
-    margin: auto;
-    display: block;
-    padding: 10px;
+    border: 2px solid red;
 }
 
 
