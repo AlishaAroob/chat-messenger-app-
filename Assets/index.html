@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>echat app</title>
     <link rel="stylesheet" href="index.css" />
+    <script defer src="http//localhost:8000/socket.io/socket.io.js/"></script>
+    <script defer src="./client.js"></script>
   </head>
   <body>
     <nav class="navbar">
@@ -12,15 +14,14 @@
       <h1>Welcome to echat app</h1>
     </nav>
     <div class="container">
-      <input class="messageright" type="text" placeholder="Hi, whats up?"/>
-      <input  class="messageleft" type="text" placeholder="Hi, all set."/>
+      <div class="messageright">Hi,whats up?</div>
+      <div class="messageleft">i am fine</div>
     </div>
-    <div class="send">
-      <form action="#" >
-        <input class="inp" type="text" placeholder="Type here" />
+    <div class="send" >
+      <form action="#" id="send-container">
+        <input class="inp" id="messageinput" type="text" placeholder="Type here" />
         <button class="btnn"> send</button>
       </form>
-      
       </div>
     </div>
   </body>

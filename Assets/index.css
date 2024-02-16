@@ -43,12 +43,24 @@ overflow-y: auto;
 }
 .messageright{
     float: right;
-    padding: 10px 0px;
+    padding: 10px 10px;
     clear: both;
+    border:2px solid rgb(201, 195, 195);
+    background-color: white;
+color: black;
+width: 20%;
+border-radius: 20%;
 }
 .messageleft{
     float: left;
     clear: both;
+    border:2px solid rgb(201, 195, 195);
+background-color: white;
+color: black;
+padding: 10px 10px;
+width: 20%;
+border-radius: 20%;
+
     
 }
 .send{
